@@ -1,5 +1,5 @@
 #include<stdio.h>
-int toh(char,char,char,int);
+int toh(char,char,char,int);  //prototype declaration
 
 int main()
 {
@@ -21,7 +21,7 @@ int toh(char a, char b, char c,int n)
 	printf("\nmove disc 1 from  %c ---> %c",a,c);
 	return 0;
 	}
-else
+else							//recursive calls
 {
 	toh(a,c,b,n-1);
 	printf("\nmove disc %d from  %c ---> %c\n",n,a,c);
