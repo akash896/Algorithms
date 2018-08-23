@@ -1,4 +1,4 @@
-#include<stdio.h>
+#include<stdio.h>	//header file
 int toh(char,char,char,int);  //prototype declaration
 
 int main()
