@@ -7,7 +7,7 @@ int main()
 	char b= 'B';
 	char c= 'C';
 	int n;
-	printf("\n enter the no. of rings");
+	printf("\n enter the no. of rings");	//taking the input
 	scanf("%d",&n);
 	toh(a,b,c,n);
 	return 0;
